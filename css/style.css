@@ -27,12 +27,9 @@
 
 .navigation__menu {
   justify-self: center;
-  display: flex;
-}
-
-/* отступ всім крім остатнього */
-.navigation__menu .navigation__item:not(:last-child) {
-  margin-right: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
 
 .navigation__link {
