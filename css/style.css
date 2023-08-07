@@ -252,6 +252,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+
 }
 
 .emergency-situation__content {
@@ -261,9 +262,27 @@
 
   box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.10);
   border-radius: 13px;
+
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  list-style: disc;
+  
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.emergency-situation__content-after:before{
+  content: '';
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: rgb(7, 7, 7);
+  display: inline-block;
+  
+  margin: 0 10px 0 0;
+}
+
+.emergency-situation__content-container{
+  display: grid;
+  row-gap: 15px;
 }
 
 
