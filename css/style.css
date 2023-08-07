@@ -282,6 +282,7 @@
 
 .emergency-situation__content-container{
   display: grid;
+  justify-content: space-around;
   row-gap: 15px;
 }
 
