@@ -1,5 +1,11 @@
 .navigation-wrapper {
   box-shadow: var(--shadow-navigation) ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .navigation {
@@ -25,4 +31,21 @@
 .navigation__link {
   font-size: 18px;
   line-height: normal;
+}
+
+.profile {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile__text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.profile__icon {
+  width: 32px;
+  height: 32px;
 }
