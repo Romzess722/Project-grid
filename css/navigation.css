@@ -1,0 +1,28 @@
+.navigation-wrapper {
+  box-shadow: var(--shadow-navigation) ;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 6fr 3fr 3fr;
+  align-items: center;
+  gap: 0 30px;
+  padding: 10px 0px;
+}
+
+.navigation__logo-icon {
+  width: 53px;
+  height: 58px;
+}
+
+.navigation__menu {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.navigation__link {
+  font-size: 18px;
+  line-height: normal;
+}

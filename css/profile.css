@@ -1,0 +1,16 @@
+.profile {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile__text {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.profile__icon {
+  width: 32px;
+  height: 32px;
+}

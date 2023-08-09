@@ -1,0 +1,10 @@
+.section-title{
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  line-height: 72px;
+}
+
+.section-title--white{
+  color: var(--primary-background-color);
+}
