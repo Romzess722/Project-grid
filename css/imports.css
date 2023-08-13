@@ -5,5 +5,21 @@
 @import url(./benefits.css);
 @import url(./emergency.css);
 @import url(./faq.css);
-@import url();
-@import url();
+@import url(./feetback.css);
+@import url(./modal.css);
+
+/* scrollbar */
+
+body::-webkit-scrollbar {
+  width: 0.9em;
+  
+}
+ 
+body::-webkit-scrollbar-track {
+  background-color: yellow;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: blue;
+  outline: 1px solid blue;
+}

@@ -1,11 +1,14 @@
+body{
+  padding-top: 100px;
+}
+
 .navigation-wrapper {
-  box-shadow: var(--shadow-navigation) ;
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
-  right: 0;
-  background-color: white;
-  z-index: 1;
+  background-color: var(--primary-background-color);
+  box-shadow: var(--shadow-navigation) ;
 }
 
 .navigation {
@@ -13,7 +16,8 @@
   grid-template-columns: 1fr 6fr 3fr 3fr;
   align-items: center;
   gap: 0 30px;
-  padding: 10px 0px;
+  padding: 10px 15px;
+  min-height: 81px;
 }
 
 .navigation__logo-icon {
